@@ -1,0 +1,22 @@
+{
+	"name": "Consimple Server",
+	"description": "Сервер тестового задания Consimple",
+	"repository": "https://github.com/ExtremeDotneting/**",
+	"buildpacks": [{
+		"url": "https://github.com/jincod/dotnetcore-buildpack"
+	}],
+	"env": {
+		"IS_DEBUG": {
+			"description": "Окружение .Net",
+			"value": "True"
+		},
+		"EXTERNAL_URL": {
+			"description": "Домен Вашего приложения. Формат: https://<app_name>.herokuapp.com",
+			"value": "https://<app_name>.herokuapp.com"
+		},
+		"DB_CONNECTION": {
+			"description": "Строка подключения к бд",
+			"value": "Server=localhost;Database=consimple_db;Trusted_Connection=True;"
+		}
+	}
+}
