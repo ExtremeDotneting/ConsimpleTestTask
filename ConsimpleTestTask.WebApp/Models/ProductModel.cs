@@ -2,7 +2,7 @@
 
 namespace ConsimpleTestTask.WebApp.Models
 {
-    public class ProductModel
+    public class ProductModel: IBaseModel
     {
         public int Id { get; set; }
 

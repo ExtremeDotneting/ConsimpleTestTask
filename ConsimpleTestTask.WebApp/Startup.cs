@@ -42,6 +42,7 @@ namespace ConsimpleTestTask.WebApp
                         NamingStrategy = new SnakeCaseNamingStrategy()
                     };
                     opt.SerializerSettings.ContractResolver = contractResolver;
+                    opt.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
                 });
             AddSwaggerGen_Local(services);
             services.AddMvcExceptionHandler();

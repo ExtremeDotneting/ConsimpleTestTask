@@ -1,6 +1,6 @@
 ﻿namespace ConsimpleTestTask.WebApp.Models
 {
-    public class PurchasePositionModel
+    public class PurchasePositionModel: IBaseModel
     {
         public int Id { get; set; }
 

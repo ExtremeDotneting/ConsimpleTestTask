@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ConsimpleTestTask.WebApp.Models
 {
-    public class UserModel
+    public class UserModel: IBaseModel
     {
         public int Id { get; set; }
 

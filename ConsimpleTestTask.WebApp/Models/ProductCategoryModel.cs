@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ConsimpleTestTask.WebApp.Models
 {
-    public class ProductCategoryModel
+    public class ProductCategoryModel: IBaseModel
     {
         public int Id { get; set; }
 
