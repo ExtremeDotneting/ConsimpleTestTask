@@ -1,7 +1,7 @@
 {
 	"name": "Consimple Server",
 	"description": "Сервер тестового задания Consimple",
-	"repository": "https://github.com/ExtremeDotneting/**",
+	"repository": "https://github.com/ExtremeDotneting/ConsimpleTestTask",
 	"buildpacks": [{
 		"url": "https://github.com/jincod/dotnetcore-buildpack"
 	}],
